@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — GreenLink</title>
+<meta name="description" content="Get in touch with GreenLink to volunteer, ask a question, or partner with us on a cleanup.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/logo-icon.png" alt="GreenLink logo">
+      <span class="brand-word">Green<span>Link</span></span>
+    </a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="mission.html">Our Mission</a>
+      <a href="founders.html">Founders</a>
+      <a href="contact.html" class="active">Contact Us</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-ghost">Get Involved</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Get in touch</span>
+      <h1>Have a question, or ready to volunteer?</h1>
+      <p>Fill out the form below and we'll get back to you within a couple of days — or reach out directly using the info to the right.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+
+      <form class="contact-form" id="contact-form">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required placeholder="Jamie Rivera">
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required placeholder="jamie@example.com">
+        </div>
+        <div class="field">
+          <label for="topic">What's this about?</label>
+          <select id="topic" name="topic">
+            <option>Volunteering</option>
+            <option>Organizing a cleanup</option>
+            <option>Partnership or sponsorship</option>
+            <option>Press or media</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Tell us a bit about what you're looking to do..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="justify-self:start;">Send Message</button>
+        <p class="form-note">This form opens your email app with your message pre-filled — GreenLink's site doesn't store your info anywhere. Prefer email? Reach us directly at hello@greenlink-volunteers.org.</p>
+      </form>
+
+      <div class="contact-info">
+        <div class="info-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M3 6l9 7 9-7"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>
+          <div>
+            <h3>Email</h3>
+            <p>hello@greenlink-volunteers.org</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 16.9v2.6a1.5 1.5 0 0 1-1.6 1.5A17.9 17.9 0 0 1 3 4.1 1.5 1.5 0 0 1 4.5 2.5H7a1.5 1.5 0 0 1 1.5 1.3c.1.9.3 1.8.6 2.6a1.5 1.5 0 0 1-.4 1.6L7.4 9.4a14.5 14.5 0 0 0 6.2 6.2l1.4-1.3a1.5 1.5 0 0 1 1.6-.4c.8.3 1.7.5 2.6.6a1.5 1.5 0 0 1 1.3 1.5z"/></svg>
+          <div>
+            <h3>Phone</h3>
+            <p>(555) 010-1234 &mdash; leave a message, we'll call back</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.4 7-11.5A7 7 0 0 0 5 9.5C5 14.6 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+          <div>
+            <h3>Where we meet</h3>
+            <p>Cleanups typically start at Willow Creek Park — check our socials for the next date and meeting point.</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 1.9"/></svg>
+          <div>
+            <h3>Response time</h3>
+            <p>We typically reply within 2–3 days. Cleanup-day questions get answered fastest via social media.</p>
+          </div>
+        </div>
+
+        <div class="info-card" style="flex-direction:column; align-items:flex-start;">
+          <h3 style="margin-bottom:0.6em;">Follow along</h3>
+          <div class="social-row">
+            <a href="#" aria-label="GreenLink on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+            </a>
+            <a href="#" aria-label="GreenLink on Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 8h-2a2 2 0 0 0-2 2v2H9v3h2v6h3v-6h2.2l.8-3H14v-1.5c0-.6.4-1 1-1h2V8z"/></svg>
+            </a>
+            <a href="#" aria-label="GreenLink on X">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4l16 16M20 4L4 20"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo-icon-dark-bg.png" alt="GreenLink logo">
+          <span>GreenLink</span>
+        </div>
+        <p style="max-width:32ch; font-size:0.92rem;">Connecting people, parks, and purpose — one cleanup at a time.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mission.html">Our Mission</a></li>
+          <li><a href="founders.html">Founders</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get Involved</h4>
+        <ul>
+          <li><a href="contact.html">Volunteer</a></li>
+          <li><a href="index.html#tracker">Our Impact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> GreenLink. All rights reserved.</span>
+      <span>Connecting people, parks, and purpose.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
